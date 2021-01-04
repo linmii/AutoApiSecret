@@ -7,7 +7,7 @@ on:
   push:
     tags:
     - 'v*'
-   branches: 
+    branches: 
     - main
   schedule:
     - cron: '12 */6 * * *'
